@@ -2,15 +2,14 @@
   "name": "@panorama-lab/review",
   "version": "0.1.0",
   "description": "Directory-based literature review format and import parsers.",
-  "homepage": "https://github.com/author/library#readme",
+  "homepage": "https://github.com/panorama-lab/review#readme",
   "bugs": {
-    "url": "https://github.com/author/library/issues"
+    "url": "https://github.com/panorama-lab/review/issues"
   },
   "license": "MIT",
-  "author": "Author Name <author.name@mail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author/library.git"
+    "url": "git+https://github.com/panorama-lab/review.git"
   },
   "files": [
     "dist"
@@ -35,13 +34,13 @@
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
-    "@llamaindex/liteparse": "catalog:",
+    "@llamaindex/liteparse": "^2.10.1",
     "typeid-js": "^1.2.0"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
     "bumpp": "^11.1.0",
     "typescript": "^7.0.2",
-    "vite-plus": "catalog:"
+    "vite-plus": "0.3.0"
   }
 }

@@ -1,6 +1,6 @@
 import { expect, test } from "vite-plus/test";
 
-import { parseRIS } from "../src/ris.ts";
+import { parseRIS } from "../src/exports/index.ts";
 
 test("parseRIS parses a journal article", () => {
   const records = parseRIS(`

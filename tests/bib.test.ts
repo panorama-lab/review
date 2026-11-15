@@ -1,6 +1,6 @@
 import { expect, test } from "vite-plus/test";
 
-import { parseBibTeX } from "../src/bib.ts";
+import { parseBibTeX } from "../src/exports/index.ts";
 
 test("parseBibTeX parses a journal article", () => {
   const records = parseBibTeX(`

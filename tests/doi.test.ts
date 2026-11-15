@@ -1,6 +1,6 @@
 import { expect, test } from "vite-plus/test";
 
-import { normalizeDoi, paperIdFromDoi } from "../src/doi.ts";
+import { normalizeDoi, paperIdFromDoi } from "../src/exports/index.ts";
 
 test("normalizeDoi trims and lowercases", () => {
   expect(normalizeDoi("  10.1000/ABC  ")).toBe("10.1000/abc");
